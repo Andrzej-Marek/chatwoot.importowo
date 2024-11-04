@@ -46,6 +46,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=chatwoot
+      - POSTGRES_PORT=5433
 
   redis:
     image: redis:alpine
