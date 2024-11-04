@@ -2,7 +2,7 @@ version: "3"
 
 services:
   base: &base #  image: chatwoot/chatwoot:latest
-    image: chatwoot/chatwoot:docker-foss-arm64-ce
+    image: amoxt/chatwoot-arm
     env_file: .env ## Change this file for customized env variables
     volumes:
       - /tmp/storage:/app/storage
